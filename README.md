@@ -3,10 +3,10 @@
 ### 启动
 npm run start
 
-// 暂停 Nginx 服务
-sudo nginx -s stop
-// 启动 Nginx 服务
-nginx
+// 暂停 Nginx 服务<br>
+sudo nginx -s stop<br>
+// 启动 Nginx 服务<br>
+nginx<br>
 
 ### 修改 nginx.conf 文件中的端口
 ```js
@@ -33,6 +33,4 @@ location / {
 }
 ```
 ### 视频
-<video controls>
-  <source src="/demo.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](/demo.mp4)
