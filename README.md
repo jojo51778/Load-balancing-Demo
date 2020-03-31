@@ -3,9 +3,9 @@
 ### 启动
 npm run start
 
-// 暂停 Nginx 服务<br>
+暂停 Nginx 服务<br>
 sudo nginx -s stop<br>
-// 启动 Nginx 服务<br>
+启动 Nginx 服务<br>
 nginx<br>
 
 ### 修改 nginx.conf 文件中的端口
@@ -32,5 +32,3 @@ location / {
   proxy_pass http://testServer; // testServer 为自己定义的服务器集群
 }
 ```
-### 视频
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](/demo.mp4)
