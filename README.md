@@ -32,3 +32,6 @@ location / {
   proxy_pass http://testServer; // testServer 为自己定义的服务器集群
 }
 ```
+
+### 预览效果
+打开localhost:8086 会看到界面端口变化
